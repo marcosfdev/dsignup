@@ -18,3 +18,8 @@ puts 'user: ' << user.name
 user.add_role :admin
 user.skip_confirmation!
 user.save!
+
+user2 = User.find_or_create_by_email :name => 'Second User', :email => 'user2@example.com', :password => 'changeme', :password_confirmation => 'changeme'
+puts 'user: ' << user2.name
+user2.add_role :VIP
+

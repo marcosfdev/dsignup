@@ -7,13 +7,13 @@
 # makes 'Your_Gmail_Username' available as ENV["GMAIL_USERNAME"]
 # Add application configuration variables here, as shown below.
 #
-MANDRILL_USERNAME: Your_Username
-MANDRILL_API_KEY: Your_Mandrill_API_Key
-MAILCHIMP_API_KEY: Your_MailChimp_API_Key
+MANDRILL_USERNAME: marcobrien12@gmail.com
+MANDRILL_API_KEY: 866355d0-9b9d-4680-883d-ffc839cb46e2
+MAILCHIMP_API_KEY: dd46811b6945f07f593a3e6b99cb39f5-us6
 MAILCHIMP_LIST_ID: My_List_ID
 ADMIN_NAME: First User
 ADMIN_EMAIL: user@example.com
 ADMIN_PASSWORD: changeme
 ROLES: [admin, user]
 EMAIL_ADDRESS: user@example.com
-DOMAIN: example.com
+DOMAIN: indoglow.com
